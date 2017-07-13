@@ -1,15 +1,15 @@
-#IoT Access Point Configuration
+# IoT Access Point Configuration
 
-##Configuring the Access Point
+## Configuring the Access Point
 
-###Files that are edited
+### Files that are edited
 
 - `/etc/network/interfaces`
 - `/etc/hostapd/hostapd.conf`
 - `/etc/default/hostapd`
 - `/etc/dnsmasq.conf`
 
-###Configuration
+### Configuration
 [`access_point_setup.py`] - 
 This script edits the above files in order to configure the Raspberry Pi for a wireless access point.
 
@@ -31,16 +31,16 @@ that will be assigned when devices connect to the access point.
 
 
 
-##Configuring the Internet Access
+## Configuring the Internet Access
 
-###Files that are edited
+### Files that are edited
 
 - `/etc/wpa_supplicant/wpa_supplicant.conf`
 - `/etc/dnsmasq.conf`
 - `/etc/hostapd/hostapd.conf`
 - `/etc/default/hostapd`
 
-###Configuration
+### Configuration
 [`configuration.py`] - 
 This script edits the above files in order to configure the Raspberry Pi for a Wi-Fi access.
 
